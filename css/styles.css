@@ -22,6 +22,10 @@ body {
   padding: 10px;
 }
 
+.hover {
+  cursor: pointer;
+}
+
 /* -----GENERAL STYLES----- */
 
 .jumbotron {
