@@ -1,7 +1,7 @@
 "use strict";
 
 var gulp = require("gulp"),
-  sass = require("gulp-sass")(require("sass")),
+  sass = require("gulp-sass"),
   browserSync = require("browser-sync");
 
 gulp.task("sass", function () {
