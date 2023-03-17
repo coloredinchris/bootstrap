@@ -19,7 +19,7 @@
   "author": "Christopher Allen",
   "license": "ISC",
   "devDependencies": {
-    "browser-sync": "^2.29.0",
+    "browser-sync": "^2.23.6",
     "cssmin": "^0.4.3",
     "grunt": "^1.0.2",
     "grunt-browser-sync": "^2.2.0",
@@ -38,10 +38,12 @@
     "gulp-sass": "^5.1.0",
     "htmlmin": "^0.0.7",
     "jit-grunt": "^0.10.0",
-    "lite-server": "^2.3.0",
+    "lite-server": "^2.6.1",
+    "node-sass": "^8.0.0",
     "onchange": "^3.3.0",
     "parallelshell": "^3.0.1",
     "rimraf": "^2.6.2",
+    "sass": "^1.59.3",
     "time-grunt": "^1.4.0",
     "uglifyjs": "^2.4.11",
     "usemin-cli": "^0.5.1"
@@ -50,9 +52,8 @@
     "bootstrap": "^4.0.0",
     "bootstrap-social": "^5.1.1",
     "font-awesome": "^4.7.0",
+    "gulp-v4": "^4.0.0-alpha.5",
     "jquery": "^3.3.1",
-    "node-sass": "^8.0.0",
-    "popper.js": "^1.12.9",
-    "sass": "^1.59.3"
+    "popper.js": "^1.12.9"
   }
 }
