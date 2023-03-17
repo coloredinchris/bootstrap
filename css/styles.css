@@ -64,3 +64,9 @@ body {
 
 .hover {
   cursor: pointer; }
+
+.hover:hover {
+  color: black; }
+
+.colormeblack {
+  color: black; }
