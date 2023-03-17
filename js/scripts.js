@@ -9,3 +9,11 @@ $("#carouselButton").click(function () {
     $("#carouselButton").children("span").addClass("fa-pause");
   }
 });
+
+$("#reserveTable").click("show.bs.modal", function (e) {
+  $("#reservationModal").modal("show");
+});
+
+$("#loginButton").click("show.bs.modal", function (e) {
+  $("#loginModal").modal("show");
+});

@@ -48,6 +48,19 @@ body {
   padding: 10px;
 }
 
+// Modals
+.modal-header {
+  background-color: $background-dark;
+  color: floralwhite;
+  .close {
+    color: floralwhite;
+  }
+}
+
+.modal-body {
+  background-color: $background-pale;
+}
+
 // Carousel
 .carousel {
   background: $background-dark;
@@ -66,4 +79,8 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1;
+}
+
+.hover {
+  cursor: pointer;
 }
